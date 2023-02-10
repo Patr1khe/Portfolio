@@ -1,0 +1,91 @@
+@import 'config','main','section';
+body {
+    background-color: $bkgC;   
+    // margin: 0 20px; 
+}
+body * {
+    // box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.topbar {
+    #bboxul {
+        background-color: #343434;
+        border-radius: 7rem;
+        border-color: #f2edda;
+        border-style: solid;
+        letter-spacing: 1px;
+        height: 3rem;
+        z-index: 10;
+        position: fixed;
+        width: 95%;
+        bottom: 2.5rem;
+        .menu {
+            flex-wrap: nowrap;
+            text-align: center;
+            height: 2.5rem;
+            width: auto;
+            font-size: x-small;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            align-items: center;
+            margin: auto;
+            .nav-item {
+                justify-content: center;
+                text-decoration: none;
+                color: #f2edda;
+                height: 2rem;
+                padding: 1rem 0rem 1rem 0rem;
+            }        
+        }
+    }
+}
+.header-title {
+    .top-h1 {
+        text-align: center;
+        color: #ccd6f6;
+    }
+}
+.profilecard {
+    // background-color: $bkgC;
+    background-image: url(../images/pogcodesv.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 100%;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: flex-start;
+    .cardPicInf {
+        color: #99ebeb;
+        align-self: flex-start;
+        filter: brightness(1.1);
+        font-size: xx-large;
+        .Fst {
+            margin-left: -42px;
+        }
+    }
+    .authorimage {
+        img{
+            width: 70%;            
+        }
+    }
+}
+@media screen and (min-width: 400px) {
+    
+}
+// @media screen and (min-width: 1024px) {
+//     .profilecard {
+//         .cardPicInf {
+//             color: #99ebeb;
+//             align-self: center;
+//             // margin-left: -150px;
+//             // margin-top: 350px;
+//         }
+//         .authorimage {
+//             img{
+//                 width: 60%;
+//             }
+//         }
+//     }
+// }
