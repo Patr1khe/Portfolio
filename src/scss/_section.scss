@@ -1,7 +1,14 @@
 .my_own_skills {
     color: #ccd6f6;
-    margin: 0 20px;
-    height: 100vh;
+    margin: 0 auto;
+    height: 136vh;
+    .program, .programB {
+        height: 3.5rem;
+    }
+    .flexrowF_B {
+        display: flex;
+        flex-direction: row;
+    }
     .h-skills {
         padding: 1.5rem 0rem 1.5rem 0rem;
         color: #5ceaca;
