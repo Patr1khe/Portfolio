@@ -17,77 +17,153 @@
 	  <link rel="stylesheet" href="/src/css/style.css">
   </head>
   <body>
-    <div id="page" class="container col-sm-12">
-      <header class="topbar col-sm-12">
-        <nav class="p-2 z-20 flex justify-between">
-          <div id="bboxul" class="row d-flex justify-content-center items-center col-12 ">
-            <ul class="menu row d-flex justify-content-center items-center">
-                <li class="nav-items col-3">
-                    <a href="#" class="nav-item">Home</a>
-                </li>
-                <li class="nav-items col-3">
-                    <a href="#" class="nav-item">About</a>
-                </li>
-                <li class="nav-items col-3">
-                    <a href="#" class="nav-item">Skills</a>
-                </li>
-                <li class="nav-items col-3">
-                    <a href="#" class="nav-item">Projects</a>
-                </li>
-                <li class="nav-items col-3">
-                    <a href="#" class="nav-item">Contact</a>
-                </li>
-              </ul>
-          </div>
-          <button id="darkLight" class="fixed right-4 top-4"><i class="fa fa-sun-o"></i></button>
-        </nav>
+    <div id="page" class="container col-12">
+      <header class="topbar col-12">
+          <nav class="navbox p-2 z-20 flex justify-between">
+            <div id="bboxul" class="row d-flex justify-content-center items-center col-12 ">
+              <ul class="menu row d-flex justify-content-center items-center">
+                <div class="circlebox text-center">
+                  <span class="dltext">DL↓CV</span>
+                  <a href="src/images/Patrik-CV-SWE-pdf.pdf" download="Resume" target="_blank" class="dl-pdf">
+                    <img src="https://img.icons8.com/nolan/344/open-resume.png" alt="icons8(resume icon download directly)" class="imgsize">
+                  </a>
+                </div>
+                  <li class="nav-items col-3">
+                      <a href="#" class="nav-item">Home</a>
+                  </li>
+                  <li class="nav-items col-3">
+                      <a href="#" class="nav-item">About</a>
+                  </li>
+                  <li class="nav-items col-3">
+                      <a href="#" class="nav-item">Skills</a>
+                  </li>
+                  <li class="nav-items col-3">
+                      <a href="#" class="nav-item">Projects</a>
+                  </li>
+                  <li class="nav-items col-3">
+                      <a href="#" class="nav-item">Contact</a>
+                  </li>
+                </ul>
+            </div>
+          </nav>
+        <button id="darkLight" class="fixed right-4 top-4"><i class="fa fa-sun-o"></i></button>
+        <div class="header-title">
+          <h1 class="top-h1"><span class="color-h1">WELCOME</span></h1>
+        </div>
+        <div class="profilecard d-flex col-12">
+          <div class="authorimage"><img src="src/images/profileimg.jpg" alt="profilecard"></div>
+            <h2 class="cardPicInf">
+              <span class="Fst">Patrik He</span>
+              <br>
+              <span class="Snd">Front End Developer</span>
+            </h2>
+        </div>
       </header>
-      <div class="header-title">
-        <h1 class="top-h1"><span class="color-h1">WELCOME</span></h1>
-      </div>
-      <div class="profilecard d-flex col-sm-12">
-        <div class="authorimage"><img src="src/images/profileimg.jpg" alt="profilecard"></div>
-          <h2 class="cardPicInf">
-            <span class="Fst">Patrik He</span>
-            <br>
-            <span class="Snd">Front End Developer</span>
-          </h2>
-      </div>
-      <main class="about-myself col-sm-12">
-        <h2 class="heading">About me</h2>
+      <main class="about-myself col-12">
+        <h2 class="heading text-center">About me</h2>
         <div class="p-about">
           <p> I'm 25 years old from Sweden. I'm currently studying 2nd term as a student from Medieinstitutet, Malmö.
                               I'm looking forward to start my first intership period in 2023-10-02 -> 2023-12-08.
                               I'm eager to learn new things and improve as Developer, that 
-                              can be reused in the future for diffrent Projects.</p>
+                              can be reused in the future for different Projects.</p>
         </div>
       </main>
-      <section class="my_own_skills col-sm-12">
-        <h2 class="h-skills">Skills</h2>
-          <div class="icons row d-flex justify-content-center col-sm-6 text-center">
-            <h3 class="program">Front End Developer</h3>
-              <div class="card-name col-6 text-center mt-5">
-                <p>HTML</p>
-              </div>
-              <div class="card-name col-6 text-center mt-5">
-                <p>CSS</p>
-              </div>
-              <div class="card-name col-6 text-center mt-5">
-                <p>SASS</p>
-              </div>
-              <div class="card-name col-6 text-center mt-5">
-                <p>Bootstrap</p>
-              </div>
-              <div class="card-name col-6 text-center mt-5">
-                <p>JavaScript</p>
-              </div>
-              <div class="card-name col-6 text-center mt-5">
-                <p>TypeScript</p>
-              </div>
+      <section class="my_own_skills col-12">
+        <h2 class="h-skills text-center">Skills</h2>
+          <div class="flexrowF_B justify-content-center col-12 text-center">
+            <div class="iconsF col-6 ">
+              <h3 class="program">Front End</h3>
+                <div class="card-name col-6 m-3 mt-5">
+                  <p>HTML</p>
+                </div>
+                <div class="card-name col-6 m-3 mt-5">
+                  <p>CSS</p>
+                </div>
+                <div class="card-name col-6 m-3 mt-5">
+                  <p>SASS</p>
+                </div>
+                <div class="card-name col-6 m-3 mt-5">
+                  <p>Bootstrap</p>
+                </div>
+                <div class="card-name col-6 m-3 mt-5">
+                  <p>JavaScript</p>
+                </div>
+                <div class="card-name col-6 m-3 mt-5">
+                  <p>TypeScript</p>
+                </div>
+            </div>
+            <div class="iconsB col-6">
+                <h3 class="programB">Back End <br> <span class="bg-warning">(in progress)</span></h3>
+                  <div class="card-name col-6 m-5 mt-5">
+                    <p>NODE Basic</p>
+                  </div>
+                  <div class="card-name col-6 m-5 mt-5">
+                    <p>Express</p>
+                  </div>
+                  <div class="card-name col-6 m-5 mt-5">
+                    <p>SQL</p>
+                  </div>
+                  <div class="card-name col-6 m-5 mt-5">
+                    <p>CRUD</p>
+                  </div>
+                  <div class="card-name col-6 m-5 mt-5">
+                    <p>ORM</p>
+                  </div>
+                  <div class="card-name col-6 m-5 mt-5">
+                    <p>MVC</p>
+                  </div>
+                  <div class="card-name col-6 m-5 mt-5">
+                    <p>Validation</p>
+                  </div>
+                  <div class="card-name col-6 m-5 mt-5">
+                    <p>API Basic Authentication</p>
+                  </div>
+                  <div class="card-name col-6 m-5 mt-5">
+                    <p>API JSON WEB TOKEN Authentication</p>
+                  </div>
+            </div>
           </div>
-      
       </section>
-
+      <section class="s2-projects col-12">
+        <h2 class="h-projects text-center">Projects</h2>
+        <div class="assignments col-12">
+          <div class="project card col-6 bg-dark">
+            <h3 class="c-header text-center">Quiz</h3>
+            <img src="src/images/m_gquiz.png" alt="">
+            <h4 class="c-header text-center">Project</h4>
+            <p class="c-ptag text-center">Members: 1</p>
+            <button class="s2-button"><a href="https://rad-crostata-6bd455.netlify.app/" target="_blank" class="s2-button-a">Visit Website</a></button>
+            <button class="s2-button"><a href="https://github.com/Patr1khe/D-Quiz" target="_blank" class="s2-button-a">Visist Github</a></button>
+          </div>
+          <div class="project card col-6 bg-dark">
+            <h3 class="c-header text-center">Bortakväll</h3>
+            <img src="src/images/m_bortakvallgrupp.png" alt="">
+            <h4 class="c-header text-center">Group project</h4>
+            <p class="c-ptag text-center">Members: 3</p>
+            <button class="s2-button"><a href="https://gentle-dusk-abe4a9.netlify.app/" target="_blank" class="s2-button-a">Visit Website</a></button>
+            <button class="s2-button"><a href="https://github.com/Patr1khe/javascript-grupparbete" target="_blank" class="s2-button-a">Visist Github</a></button>
+          </div>
+        </div>
+      </section>
+      <footer class="f-contacts col-12 text-white text-center">
+        <h2 class="contacts">Contacts</h2>
+          <div class="f-placement card-footer">
+            <ul class="fpos-ul">
+              <li class="f-li a">
+                  <a href="https://github.com/Patr1khe" class="fot-a a" target="_blank"><img src="https://img.icons8.com/ios-filled/344/github.png" 
+                      alt="icons8(github icon)" class="li-img">Github</a>
+              </li>
+              <li class="f-li b">
+                <a href="https://www.linkedin.com/in/patrik-he-649520239/" class="fot-a b" target="_blank"><img src="https://img.icons8.com/ios-filled/344/linkedin.png" 
+                  alt="icons8 (linkedin icon)" class="li-img">Linkeldn</a>
+              </li>
+              <li class="f-li c">
+                <a href="mailto:patrikswgit@gmail.com" class="fot-a c" target="_blank"><img src="https://img.icons8.com/ios-filled/344/message-squared.png" 
+                  alt="icons8 (mailto: my gmail)" class="li-img">Direct mail</a>
+              </li>
+            </ul>
+          </div>
+      </footer>
     </div>
     <script type="module" src="./main.ts"></script>
     <script src="https://kit.fontawesome.com/2d79386da4.js" crossorigin="anonymous"></script>
