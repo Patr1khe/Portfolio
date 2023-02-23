@@ -1,5 +1,6 @@
 import '/src/css/style.css'
-// import logo from "../src/images/m_gquiz"
+import "../src/images/m_gquiz"
+import "../src/images/m_bortakvallgrupp"
 
 const myoSkillsEl = document.querySelector('#myoSkills') as HTMLElement
 const s2ProjectsEl = document.querySelector('#s2Projects') as HTMLElement
@@ -18,7 +19,7 @@ const s2ProjectsSection = (() => {
       </div>
       <div class="project card col-6 bg-dark">
         <h3 class="c-header text-center">Bortakväll</h3>
-        <img src="./src/images/m_bortakvallgrupp.png" alt="Made by my group">
+        <img src="src/images/m_bortakvallgrupp.png" alt="Made by my group">
         <h4 class="c-header text-center">Group project</h4>
         <p class="c-ptag text-center">Members: 3</p>
         <button class="s2-button"><a href="https://gentle-dusk-abe4a9.netlify.app/" target="_blank" class="s2-button-a">Visit Website</a></button>
