@@ -1,0 +1,51 @@
+.f-contacts {
+    height: 60vh;
+    .contacts {
+        color: #5ceaca;
+        padding: 1.5rem 0rem;
+    }
+    .f-placement {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .fpos-ul {
+            border: 2px inset $box-bkg6;
+            border-radius: 20px;
+            animation: showup 30s;
+            width: 100%;
+            .f-li:hover {
+                background: linear-gradient(-4deg, $box-bkg7 29%, $box-bkg8 82%);
+                border-style: outset;
+            }
+            .f-li {
+            list-style-type: none;
+            height: 6.5vh;
+            margin-left: -32px;
+            }
+
+            .fot-a {
+                text-decoration: none;
+                float: left;
+                color: black;
+                background: linear-gradient(rgb(227, 242, 241), rgb(146, 255, 177));
+                background-clip: text;
+                -webkit-background-clip: text;
+                width: 100%;
+                padding: 6.5px 0px 6.5px 0px;
+                margin: auto;
+                fill: transparent;
+                color: transparent;
+                text-align: center;
+            
+            }
+            .li-img {
+                width: 30px;
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 0.2rem;
+                background-color: $specialF-color;
+                border-radius: 50%;
+            }
+        }
+    }
+}
