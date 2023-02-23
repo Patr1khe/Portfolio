@@ -1,0 +1,29 @@
+.s2-projects {
+    color: #5ceaca;
+    height: 80vh;
+    margin: 0 auto;
+    .h-projects {
+        padding: 1.5rem 0rem;
+    }
+    .assignments {
+        display: flex;
+        flex-direction: row;
+        .s2-button {
+            background-color:#212324;
+            .s2-button-a {
+                text-decoration: none;
+                color: #f2edda;
+            }
+        }
+        .project {
+            border-style: solid 2px;
+            border-color: beige;
+            .c-header {
+                color: #ccd6f6;
+            }
+            .c-ptag {
+                color: #ccd6f6;
+            }
+        }
+    }
+}
