@@ -1,6 +1,6 @@
 import '/src/css/style.css'
-// import "../src/images/m_gquiz"
-// import "../src/images/m_bortakvallgrupp"
+import "/src/images/m_gquiz.png"
+import "/src/images/m_bortakvallgrupp.png"
 
 const myoSkillsEl = document.querySelector('#myoSkills') as HTMLElement
 const s2ProjectsEl = document.querySelector('#s2Projects') as HTMLElement
