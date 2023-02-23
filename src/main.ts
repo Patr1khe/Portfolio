@@ -1,30 +1,30 @@
 import '/src/css/style.css'
 
 const myoSkillsEl = document.querySelector('#myoSkills') as HTMLElement
-const s2ProjectsEl = document.querySelector('#s2Projects') as HTMLElement
+// const s2ProjectsEl = document.querySelector('#s2Projects') as HTMLElement
 
-const s2ProjectsSection = (() => {
-    // s2ProjectsEl.innerHTML += ` 
-    // <h2 class="h-projects text-center">Projects</h2>
-    // <div class="assignments col-12">
-    //   <div class="project card col-6 bg-dark">
-    //     <h3 class="c-header text-center">Quiz</h3>
-    //     <img src="/src/images/m_gquiz.png" alt="My Quiz">
-    //     <h4 class="c-header text-center">Project</h4>
-    //     <p class="c-ptag text-center">Members: 1</p>
-    //     <button class="s2-button"><a href="https://rad-crostata-6bd455.netlify.app/" target="_blank" class="s2-button-a">Visit Website</a></button>
-    //     <button class="s2-button"><a href="https://github.com/Patr1khe/D-Quiz" target="_blank" class="s2-button-a">Visist Github</a></button>
-    //   </div>
-    //   <div class="project card col-6 bg-dark">
-    //     <h3 class="c-header text-center">Bortakväll</h3>
-    //     <img src="/src/images/m_bortakvallgrupp.png" alt="Made by my group">
-    //     <h4 class="c-header text-center">Group project</h4>
-    //     <p class="c-ptag text-center">Members: 3</p>
-    //     <button class="s2-button"><a href="https://gentle-dusk-abe4a9.netlify.app/" target="_blank" class="s2-button-a">Visit Website</a></button>
-    //     <button class="s2-button"><a href="https://github.com/Patr1khe/javascript-grupparbete" target="_blank" class="s2-button-a">Visist Github</a></button>
-    //   </div>
-    // </div>`
-})
+// const s2ProjectsSection = (() => {
+//     s2ProjectsEl.innerHTML += ` 
+//     <h2 class="h-projects text-center">Projects</h2>
+//     <div class="assignments col-12">
+//       <div class="project card col-6 bg-dark">
+//         <h3 class="c-header text-center">Quiz</h3>
+//         <img src="/src/images/m_gquiz.png" alt="My Quiz">
+//         <h4 class="c-header text-center">Project</h4>
+//         <p class="c-ptag text-center">Members: 1</p>
+//         <button class="s2-button"><a href="https://rad-crostata-6bd455.netlify.app/" target="_blank" class="s2-button-a">Visit Website</a></button>
+//         <button class="s2-button"><a href="https://github.com/Patr1khe/D-Quiz" target="_blank" class="s2-button-a">Visist Github</a></button>
+//       </div>
+//       <div class="project card col-6 bg-dark">
+//         <h3 class="c-header text-center">Bortakväll</h3>
+//         <img src="/src/images/m_bortakvallgrupp.png" alt="Made by my group">
+//         <h4 class="c-header text-center">Group project</h4>
+//         <p class="c-ptag text-center">Members: 3</p>
+//         <button class="s2-button"><a href="https://gentle-dusk-abe4a9.netlify.app/" target="_blank" class="s2-button-a">Visit Website</a></button>
+//         <button class="s2-button"><a href="https://github.com/Patr1khe/javascript-grupparbete" target="_blank" class="s2-button-a">Visist Github</a></button>
+//       </div>
+//     </div>`
+// })
 
 const mySkillsSection = (() => {
     myoSkillsEl.innerHTML += `<h2 class="h-skills text-center">Skills</h2>
@@ -83,4 +83,4 @@ const mySkillsSection = (() => {
     </div>`
 })
 mySkillsSection()
-s2ProjectsSection()
+// s2ProjectsSection()
