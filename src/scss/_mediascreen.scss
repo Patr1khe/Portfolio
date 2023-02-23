@@ -1,28 +1,146 @@
 @media screen and (min-width: 390px) {
-    .topbar {
-        .navbox {
-            width: 98vw;
+    #page {
+        .topbar {
+            .navbox {
+                width: 98vw;
+            }
         }
     }
 }
-@media screen and (min-width: 760px) {
+
+@media screen and (min-width: 600px) {
     .topbar {
-        .navbox {
-            width: 69.5vh;
+        .profilecard {
+            margin: auto;
+            max-width: 450px;
         }
     }
 }
 @media screen and (min-width: 820px) {
-    .topbar {
-        .navbox {
-            width: 60.5vh;
+    #page {
+        .about-myself {
+            max-width: 80%;
+        }
+        .my_own_skills {
+            max-width: 80%;
+        }
+        .s2-projects {
+            max-width: 80%;
+        }
+        .f-contacts {
+            max-width: 80%;
+            margin: auto;
         }
     }
 }
 @media screen and (min-width: 912px) {
     .topbar {
-        .navbox {
-            width: 51.5vh;
+        .profilecard {
+            margin: auto;
+            max-width: 650px;
+        }
+    }
+}
+@media screen and (min-width: 1160px) {
+    #page {
+        .topbar {
+            .profilecard {
+                margin: auto;
+                width: 80%;
+            }
+        }
+        .about-myself {
+            max-width: 80%;
+        }
+        .my_own_skills {
+            max-width: 80%;
+        }
+        .s2-projects {
+            max-width: 80%;
+        }
+        .f-contacts {
+            max-width: 80%;
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #page {
+        .topbar {
+            .profilecard {
+                margin: auto;
+                max-width: 80%;
+            }
+            .navbox {
+                max-width: 80%;
+            }
+        }
+        .about-myself {
+            max-width: 80%;
+        }
+        .my_own_skills {
+            max-width: 80%;
+        }
+        .s2-projects {
+            max-width: 80%;
+        }
+        .f-contacts {
+            max-width: 80%;
+            margin: auto;
+        }
+    }
+}
+@media screen and (min-width: 1500px) {
+    #page {
+        .topbar {
+            .profilecard {
+                margin: auto;
+                max-width: 80%;
+            }
+            .navbox {
+                max-width: 80%;
+            }
+        }
+        .about-myself {
+            max-width: 80%;
+        }
+        .my_own_skills {
+            max-width: 80%;
+        }
+        .s2-projects {
+            max-width: 80%;
+        }
+        .f-contacts {
+            max-width: 80%;
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    #page {
+        .topbar {
+            .profilecard {
+                margin: auto;
+                max-width: 80%;
+            }
+            .navbox {
+                max-width: 80%;
+            }
+        }
+        .about-myself {
+            max-width: 80%;
+        }
+        .my_own_skills {
+            max-width: 80%;
+        }
+        .s2-projects {
+            max-width: 80%;
+        }
+        .f-contacts {
+            max-width: 80%;
+            margin: auto;
         }
     }
 }
