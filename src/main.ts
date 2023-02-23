@@ -11,7 +11,7 @@ const s2ProjectsSection = (() => {
     <div class="assignments col-12">
       <div class="project card col-6 bg-dark">
         <h3 class="c-header text-center">Quiz</h3>
-        <img src="./../src/images/m_gquiz.png" alt="My Quiz">
+        <img src="/src/images/m_gquiz.png" alt="My Quiz">
         <h4 class="c-header text-center">Project</h4>
         <p class="c-ptag text-center">Members: 1</p>
         <button class="s2-button"><a href="https://rad-crostata-6bd455.netlify.app/" target="_blank" class="s2-button-a">Visit Website</a></button>
@@ -19,7 +19,7 @@ const s2ProjectsSection = (() => {
       </div>
       <div class="project card col-6 bg-dark">
         <h3 class="c-header text-center">Bortakväll</h3>
-        <img src="./src/images/m_bortakvallgrupp.png" alt="Made by my group">
+        <img src="/src/images/m_bortakvallgrupp.png" alt="Made by my group">
         <h4 class="c-header text-center">Group project</h4>
         <p class="c-ptag text-center">Members: 3</p>
         <button class="s2-button"><a href="https://gentle-dusk-abe4a9.netlify.app/" target="_blank" class="s2-button-a">Visit Website</a></button>
