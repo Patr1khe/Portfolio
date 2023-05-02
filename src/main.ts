@@ -25,9 +25,23 @@ const mySkillsSection = (() => {
           <div class="card-name col-6 m-3 mt-5">
             <p>TypeScript</p>
           </div>
+          <div class="card-name col-6 m-3 mt-5">
+          <p>Testning</p>
+          </div>
+          <div class="card-name col-6 m-3 mt-5">
+          <p>Graphical tools for interface design</p>
+          </div>
+          <div class="card-name col-6 m-3 mt-5">
+          <p>React</p>
+          <span class="bg-warning">(in progress)</span>
+          </div>
+          <div class="card-name col-6 m-3 mt-5">
+          <p>Design-Ux</p>
+          <span class="bg-warning">(in progress)</span>
+          </div>
       </div>
       <div class="iconsB col-6">
-          <h3 class="programB">Back End <br> <span class="bg-warning">(in progress)</span></h3>
+          <h3 class="programB">Back End <br> <span class="bg-warning"></span></h3>
             <div class="card-name col-6 m-5 mt-5">
               <p>NODE Basic</p>
             </div>
@@ -35,7 +49,7 @@ const mySkillsSection = (() => {
               <p>Express</p>
             </div>
             <div class="card-name col-6 m-5 mt-5">
-              <p>SQL</p>
+              <p>MySQL</p>
             </div>
             <div class="card-name col-6 m-5 mt-5">
               <p>CRUD</p>
