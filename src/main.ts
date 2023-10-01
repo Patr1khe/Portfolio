@@ -37,7 +37,6 @@ const mySkillsSection = (() => {
           </div>
           <div class="card-name col-6 m-3 mt-5">
           <p>Design-Ux</p>
-          <span class="bg-warning">(in progress)</span>
           </div>
       </div>
       <div class="iconsB col-6">
