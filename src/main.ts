@@ -39,7 +39,9 @@ const mySkillsSection = (() => {
           </div>
           <div class="card-name col-6 m-3 mt-5">
           <p>LIA 1 Capace Media Group AB</p>
-          <span class="bg-warning">(in progress)</span>
+          </div>
+          <div class="card-name col-6 m-3 mt-5">
+          <p>LIA 2 DITTOO AB</p>
           </div>
       </div>
       <div class="iconsB col-6">
