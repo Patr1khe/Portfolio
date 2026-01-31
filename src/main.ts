@@ -1,4 +1,5 @@
 import '/src/css/style.css'
+import { initThemeToggle } from './theme'
 
 const myoSkillsEl = document.querySelector('#myoSkills') as HTMLElement
 
@@ -77,3 +78,4 @@ const mySkillsSection = (() => {
     </div>`
 })
 mySkillsSection()
+initThemeToggle()

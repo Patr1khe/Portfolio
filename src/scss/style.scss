@@ -14,28 +14,25 @@ body * {
     font-family: 'Montserrat', sans-serif;  
     .topbar {
         // font-family: 'Montserrat', sans-serif;  
-        #darkLight {
-            position: fixed;
-        }
         .circlebox {
             position: fixed;
             bottom: 5.2rem;
-            width: 65px;
+            right: 20px;
+            width: 65px; 
             height: 65px;
             border-radius: 50%;
-            background-color:#212324;
-            margin-left: auto;
-            border-style: solid;
-            border-color: #f2edda;
+            background-color: #212324;
+            border: 2px solid #f2edda;
             z-index: 1;
-            .imgsize {
-                width: 45px;
-                height: 45px;
-                border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s;
+            
+            &:hover {
+                transform: scale(1.1);
             }
-            .dltext {
-               color: #f2edda;  
-            }
+
         }
         .navbox {
             position: fixed;
